@@ -1,0 +1,14 @@
+env_name: FetchReach-v1
+batch_size: 64
+hidden_size: 128
+n_episodes: 900
+gamma: 0.99
+seed: 1
+cuda: false
+lr_actor: 0.001
+lr_critic: 0.001
+save_dir: checkpoints
+buffer_size: 500000
+noise_eps: 0.2
+random_eps: 0.3
+soft_tau: 0.001
